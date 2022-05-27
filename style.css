@@ -9,6 +9,10 @@
     padding: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
@@ -86,12 +90,12 @@ a{
     border-radius: 30px;
     border: none;
     background-image: linear-gradient(to right, hsl(176, 68%, 64%) , hsl(198, 60%, 50%));
-}
-
-.cta-btn a {
-    padding: 10px 30px;
     color: hsl(0, 0%, 100%);
 }
+
+/* .cta-btn a {
+
+} */
 
 /* Nav and header section ending */
 

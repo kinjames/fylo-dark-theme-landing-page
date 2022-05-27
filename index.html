@@ -21,9 +21,9 @@
           <img src="images/logo.svg" alt="logo" title="logo">
         </div>
         <ul class="nav-links">
-            <li><a href="#">Features</a></li>
-            <li><a href="#">Team</a></li>
-            <li><a href="#">Sign In</a></li>
+            <li><a href="#Features"><h4>Features</h4></a></li>
+            <li><a href="#Team"><h4>Team</h4></a></li>
+            <li><a href="#Sign-up"><h4>Sign In</h4></a></li>
         </ul>
       </section>
     </nav>
@@ -37,13 +37,13 @@
           Fylo stores all your most important files in one secure location. <br> Access them wherever 
           you need, share and collaborate with <br> friends family, and co-workers.
         </p>
-        <button class="cta-btn"><a href="#">Get Started</a></button>
+        <button class="cta-btn" type="submit">Get Started</button>
       </div>
     </section>
   </header>
 
   <main class="main-section">
-    <section class="features" >
+    <section class="features" id="Features">
       <div class="line1">
         <div class="card">
           <img src="images/icon-access-anywhere.svg" alt="">
@@ -92,7 +92,7 @@
       </div>
     </section>
     <img src="images/bg-quotes.png" alt="" class="quote">
-    <section class="testimonials-section">
+    <section class="testimonials-section" id="Team">
       <div class="testimony">
         <div class="test1">
           <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
@@ -100,7 +100,7 @@
             <div class="test-img-name">
               <img src="images/profile-1.jpg" alt="">
               <div class="test-name">
-                <p class="big-test-name">Satish Patel</p>
+                <h4>Satish Patel</h4>
                 <p class="small-test-name">Founder & CEO, Huddle</p>
               </div>
             </div>
@@ -111,7 +111,7 @@
             <div class="test-img-name">
               <img src="images/profile-2.jpg" alt="">
               <div class="test-name">
-                <p>Bruce McKenzie</p>
+                <h4>Bruce McKenzie</h4>
                 <p class="small-test-name">Founder & CEO, Huddle</p>
               </div>
             </div>
@@ -122,7 +122,7 @@
             <div class="test-img-name">
               <img src="images/profile-3.jpg" alt="">
               <div class="test-name">
-                <p>Iva Boyd</p>
+                <h4>Iva Boyd</h4>
                 <p class="small-test-name">Founder & CEO, Huddle</p>
               </div>
             </div>
@@ -134,7 +134,7 @@
 
   <footer class="footer-section">
 
-    <section class="sign-up">
+    <section class="sign-up" id="Sign-up">
       <div class="sign-up-section">
         <div class="sign-up-text">
           <h1>Get early access today</h1>
@@ -142,7 +142,7 @@
             questions, our support team would be happy to help you.
           </p>
         </div>
-        <form action="">
+        <form action="mailto:jamesmyers58@yahoo.com" method="post" enctype="text/plain">
           <input type="email" placeholder="email@example.com" class="input-text">
           <button type="submit" class="cta-btn">Get Started For Free</button>
         </form>
@@ -158,10 +158,10 @@
                 <img src="images/icon-location.svg" alt="">
               </div>
               <div class="footer1-para">
-                <p> 
+                <h4> 
                   Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed do eiusmod tempor <br> incididunt ut labore et 
                   dolore magna aliqua
-                </p>
+                </h4>
               </div>
             </div>
             <div class="footer2">
@@ -202,5 +202,7 @@
       Coded by <a href="#">James Kofi Myers</a>.
     </p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
